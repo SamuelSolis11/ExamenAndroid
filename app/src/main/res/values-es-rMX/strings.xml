@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamenAndroid</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="enter_the_price_of_the_car">Ingresa el precio del auto</string>
+    <string name="enter_the_color_of_the_car">Ingresa el color del auto</string>
+    <string name="electric">Electrico</string>
+    <string name="id">Id</string>
+    <string name="name">Nombre</string>
+    <string name="price">Precio</string>
+    <string name="color">Color</string>
+    <string name="save_information">Guardad informacion</string>
+    <string name="enter_the_id">Ingresa el id</string>
+    <string name="enter_the_name_of_the_car">Ingresa el nombre del auto</string>
+    <string name="add_cars">Agregar autos</string>
+    <string name="yes">Si</string>
+    <string name="electric_car">Carro electrico</string>
+    <string name="has_car_insurance">Cuenta con Seguro</string>
+    <string name="car_type">Tipo de Carro</string>
+    <string name="add_auto">Agregar Auto</string>
+    <string name="list_autos">Lista de Autos</string>
+    <string name="delete_car_message">Eliminar Auto</string>
+</resources>

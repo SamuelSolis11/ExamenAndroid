@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ListaAutosFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.examenandroid.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.examenandroid.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AgregarAutoFragment"
+        android:name="com.example.examenandroid.AgregarAutoFragment"
+        android:label="@string/add_auto"
+        tools:layout="@layout/fragment_agregar_auto">
+        <action
+            android:id="@+id/action_AgregarAutosFragment_to_ListaAutosFragment"
+            app:destination="@id/ListaAutosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ListaAutosFragment"
+        android:name="com.example.examenandroid.ListaAutosFragment"
+        android:label="@string/list_autos"
+        tools:layout="@layout/fragment_lista_autos">
+        <action
+            android:id="@+id/action_ListaAutosFragment_to_AgregarAutosFragment"
+            app:destination="@id/AgregarAutoFragment" />
+    </fragment>
+
+
+</navigation>
